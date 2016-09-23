@@ -1,6 +1,7 @@
 /*
 Calculate the area based on coordinates
 @author Megan Landau
+2016
 
 This is a simple program that calculates the area of a rectangular shape 
 based on the parameters passed in from STDIN in the following format:

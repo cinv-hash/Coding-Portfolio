@@ -1,9 +1,10 @@
 /*
 Median calculator
 @author Megan Landau
+2016
 
 This program takes in a list of inputs read from STDIN until the 
-number "-1" is entered. It then calculates and outputs the median of the set.
+number "-1" is entered. It then determines and outputs the median of the set.
 */
 
 import java.util.ArrayList;

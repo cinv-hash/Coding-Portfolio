@@ -1,6 +1,7 @@
 /*
 Crossing the Mississippi
 @author Megan Landau
+2016
 
 You are a traveling salesman and you have to travel to cities on either side
 of the Mississippi River. This program takes input in the following format:
