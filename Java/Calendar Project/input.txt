@@ -1,0 +1,56 @@
+1
+1100 1300 6 28 2016
+Meeting with The Dean
+Dean's Office
+Talk about fun stuff
+1100 1300 7 31 2016
+Lunch with Family
+Cici Pizza
+Meeting my wife and kids for lunch
+1200 1400 7 31 2016
+Meet with Boomtown!
+Rutledge Avenue 
+Talk about sponsorship
+0900 1000 7 31 2016
+Meet with Staff
+HWEA 321
+Talk about student records
+1030 1045 7 31 2016
+Dean Call
+Phone
+Talk about upcoming student orientation
+1500 1700 7 31 2016
+High School Event
+BE
+Talk to perspective students
+1030 1045 7 31 2016
+Take a break
+Take a break
+Take a break
+1500 1600 8 7 2016
+New Student Orientation 10
+SSMB 129
+Advise new students
+1500 1600 7 21 2016
+New Student Orientation 5
+SSMB 129
+Advise new students
+1500 1600 7 25 2016
+New Student Orientation 6
+SSMB 129
+Advise new students
+-1
+2
+3
+7 28 2016
+3
+7 31 2016
+3
+8 7 2016
+4
+1500 8 7 2016
+4
+1030 7 31 2016
+2
+9
+

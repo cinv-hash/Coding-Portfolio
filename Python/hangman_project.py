@@ -4,7 +4,12 @@ Name: Megan Landau
 Purpose: This program reads in a .txt file and enables the user to play Hangman using 
 a simple GUI. 
 
-Authenticity: I did work through some issues with the help of other students, but I certify that this program is all my own work except for Classes Noose and Scaffold - those are Professor Randall Alexander’s.
+Authenticity: I did work through some issues with the help of other students, but I
+certify that this program is all my own work except for Classes Noose and Scaffold - those 
+are Professor Randall Alexander’s.
+
+wordlist.txt needs to be included to run this! It is just a list of words to play
+the game with!
 
 """
 from graphics import *
