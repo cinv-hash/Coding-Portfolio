@@ -59,12 +59,22 @@ class GameScene: SKScene, SKTransactionDelegate {
         self.addChild(Drone)
     
     }
+    
 
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        let skSession = SKSession(URL: NSURL( string: "nmsps://NMDPPRODUCTION_Megan_Landau_Drone_Simulator_20160925011829@jzz.nmdp.nuancemobility.net:443"),
-                                  appToken: "ba94c616171ffd477c319dfc7c8be7a0d0773564d07df86d4d5fd8b899c24353560a6a6e2967b5a59952a215dd89b6ad00eb11d0680a3db669166e02d8b1562e")
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) { //neeed to have developer sandbox credentials to
+        let SKSAppKey = "-----ENTER YOUR SANDBOX CREDENTIALS HERE--------";         //start a session
+        let SKSAppId = "------------------";
+        let SKSServerHost = "sslsandbox.nmdp.nuancemobility.net";
+        let SKSServerPort = "443";
+        
+        let SKSLanguage = "eng-USA";
+        
+        let SKSServerUrl = "nmsps://\(SKSAppId)@\(SKSServerHost):\(SKSServerPort)"
+        
+        let session = SKSession(URL: NSURL(string: SKSServerUrl), appToken: SKSAppKey)
+        
 
-        skTransaction = skSession.recognizeWithType(SKTransactionSpeechTypeDictation, detection: .Short, language: "eng-usa", delegate: self)
+        skTransaction = session.recognizeWithType(SKTransactionSpeechTypeDictation, detection: .Short, language: SKSLanguage, delegate: self)
     }
     
     
@@ -163,4 +173,5 @@ class GameScene: SKScene, SKTransactionDelegate {
         /* Called before each frame is rendered */
     }
 }
+
 
